@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Queue.Net5._0
 {
@@ -6,7 +7,8 @@ namespace Queue.Net5._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //defining a queue of integers
+            Queue<int> queue = new Queue<int> ();
         }
     }
 }
