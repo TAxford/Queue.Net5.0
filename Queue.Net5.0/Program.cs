@@ -9,6 +9,10 @@ namespace Queue.Net5._0
         {
             //defining a queue of integers
             Queue<int> queue = new Queue<int> ();
+            queue.Enqueue (1);
+
+            //printing the element at the front of the queue
+            Console.WriteLine("The value at the front of the queue is : {0}", queue.Peek());
         }
     }
 }
