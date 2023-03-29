@@ -16,6 +16,8 @@ namespace Queue.Net5._0
             queue.Enqueue(2);
             Console.WriteLine("The value at the front of the queue is : {0}", queue.Peek());
             queue.Enqueue(3);
+            //remove an item
+            int queueItem = queue.Dequeue();
             Console.WriteLine("The value at the front of the queue is : {0}", queue.Peek());
         }
     }
